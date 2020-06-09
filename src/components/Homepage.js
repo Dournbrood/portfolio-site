@@ -1,4 +1,5 @@
 import React from "react";
+import Hero from "./Hero";
 
 const Homepage = (props) => {
   //do stuff
@@ -6,7 +7,7 @@ const Homepage = (props) => {
   //render JSX
   return (
     <>
-      <p>moo</p>
+      <Hero />
     </>
   );
 };

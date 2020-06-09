@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+.Big-Space-Haha {
+  height: 56px;
+}
+
+.Banner-Container {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.Banner-Container-Main {
+  padding: 1.8rem 0;
+  color: #ffffff;
+  background-color: #000000;
+  margin: 0 0.15rem;
+  flex-grow: 1;
+}
+
+.Banner-Container-Edge-L {
+  border: solid #000000;
+  border-width: 0 0.6rem 0 0.2rem;
+  width: 0.3rem;
+}
+
+.Banner-Container-Edge-R {
+  border: solid #000000;
+  border-width: 0 0.2rem 0 0.6rem;
+  width: 0.3rem;
+}

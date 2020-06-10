@@ -49,7 +49,7 @@ const Hero = () => {
           </a>
           <div className="Separator-Vertical" />
           <a
-            href="https://www.linkedin.com/in/tanner-hawkins-webdev/"
+            href="https://resume.creddle.io/resume/fge2whjejfx"
             style={{ color: "inherit" }}
             className="Contact-Button"
           >

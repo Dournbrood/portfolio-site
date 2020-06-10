@@ -54,6 +54,12 @@
   flex-grow: 1;
 }
 
+.Banner-Contact-Container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
 .Banner-Container-Edge-L {
   border: solid #000000;
   border-width: 0 0.6rem 0 0.2rem;
@@ -64,4 +70,16 @@
   border: solid #000000;
   border-width: 0 0.2rem 0 0.6rem;
   width: 0.3rem;
+}
+
+.Contact-Button {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  margin: 0 0.6rem;
+}
+
+.Separator-Vertical {
+  background-color: #ffffff;
+  width: 0.1rem;
 }

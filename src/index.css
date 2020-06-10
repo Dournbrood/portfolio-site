@@ -1,8 +1,6 @@
 body {
   margin: 8;
-  font-family: -apple-system, BlinkMacSystemFont, helvetica, sans-serif,
-    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
-    "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -18,13 +16,42 @@ h1 {
 
 h2 {
   padding: 0.8rem;
-  margin: 0.8rem;
+  margin-top: 0;
+  margin-bottom: 0.8rem;
   font-weight: lighter;
   border: solid #ffffff;
   color: inherit;
   border-width: 0.1rem 0;
   display: inline-block;
   padding: 0.1rem 1rem;
+}
+
+p {
+  max-width: 100%;
+  flex-grow: 1;
+  margin: 0;
+  padding: 0.3rem 0rem;
+}
+
+.inverted {
+  border: solid #000000;
+  border-width: 0.1rem 0;
+}
+
+.container {
+  display: flex;
+  max-width: 100%;
+  padding: 0;
+  margin-bottom: 0.8rem;
+  background-color: rgba(127.5, 127.5, 127.5, 0.125);
+}
+
+.container::before {
+  content: "\A0";
+  border: solid #000000;
+  background-color: #ffffff;
+  border-width: 0 0.2rem 0 0.6rem;
+  width: 0.3rem;
 }
 
 code {

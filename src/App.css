@@ -44,6 +44,7 @@
 .Banner-Container {
   display: flex;
   flex-flow: row nowrap;
+  margin-bottom: 0.8rem;
 }
 
 .Banner-Container-Main {

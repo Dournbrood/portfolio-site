@@ -1,4 +1,15 @@
+.non-nav {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  max-width: 1180px;
+}
+
 .App {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  width: 100%;
   text-align: center;
 }
 
@@ -38,6 +49,7 @@
 }
 
 .Big-Space-Haha {
+  width: 100%;
   height: 56px;
 }
 
@@ -45,6 +57,7 @@
   display: flex;
   flex-flow: row nowrap;
   margin-bottom: 0.8rem;
+  width: 100%;
 }
 
 .Banner-Container-Main {
@@ -83,4 +96,34 @@
 .Separator-Vertical {
   background-color: #ffffff;
   width: 0.1rem;
+}
+
+.projects {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.project-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin-bottom: 0.3rem;
+  max-width: 100%;
+}
+
+.project-img {
+  display: flex;
+  flex-flow: row nowrap;
+  flex-grow: 1;
+  align-items: flex-start;
+  width: 48%;
+  background-color: rgba(127.5, 127.5, 127.5, 0.125);
+}
+
+.project-details {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: stretch;
+  flex-grow: 1;
+  width: 48%;
 }

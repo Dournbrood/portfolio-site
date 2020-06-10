@@ -3,10 +3,16 @@ import React from "react";
 const About = () => {
   //Render
   return (
-    <div style={{ display: "flex", flexFlow: "column nowrap" }}>
-      <h2 className="inverted" style={{ flexGrow: "1" }}>
-        About
-      </h2>
+    <div
+      style={{
+        display: "flex",
+        flexFlow: "column nowrap",
+        justifyContent: "center",
+      }}
+    >
+      <div>
+        <h2 className="inverted">About</h2>
+      </div>
       <div className="container">
         <p>
           Some stuff about me. Moo. I have built projects using Javascript,

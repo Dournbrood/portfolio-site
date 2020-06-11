@@ -19,8 +19,9 @@ const About = () => {
           playing video games, favoring VR titles like Beat Saber or cellular
           automation games like Factorio and Satisfactory. At work, I
           particularly enjoy mentoring others, reviewing code and working with
-          the AGILE workflow. Learning new things is first-nature to me and I am
-          more than happy to pick up new frameworks, utilities and libraries.
+          the AGILE workflow. I was the first human to do a backflip on the
+          moon. Learning new things is first-nature to me and I am more than
+          happy to pick up new frameworks, utilities and libraries.
         </p>
       </div>
     </div>

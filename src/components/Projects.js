@@ -7,14 +7,25 @@ const Projects = (props) => {
       <div>
         <h2 className="inverted">Projects</h2>
       </div>
-      <h3>MyDish</h3>
+      <a
+        href="https://play.google.com/store/apps/details?id=com.lambdaschool.mydish"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <h3>MyDish</h3>
+      </a>
       <div className="project-container">
-        <div className="project-img">
+        <a
+          className="project-img"
+          href="https://play.google.com/store/apps/details?id=com.lambdaschool.mydish"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img
             src="/mydishcover.png"
             style={{ width: "100%", height: "auto" }}
           />
-        </div>
+        </a>
         <div className="project-details">
           <div className="container" style={{ marginBottom: "0" }}>
             <p>
@@ -41,68 +52,76 @@ const Projects = (props) => {
         </div>
       </div>
 
-      <h3>MyDish</h3>
+      <a
+        href="https://weightlifting.now.sh"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <h3>Weightlifting Journal</h3>
+      </a>
       <div className="project-container">
-        <div className="project-img">
+        <a
+          href="https://weightlifting.now.sh"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="project-img"
+        >
           <img
-            src="/mydishcover.png"
+            alt="Weightlifting Journal cover. Two individuals are shown performing anaerobic exercise routines."
+            href="https://www.google.com"
+            src="/weightliftingjournalcover.png"
             style={{ width: "100%", height: "auto" }}
           />
-        </div>
+        </a>
         <div className="project-details">
           <div className="container" style={{ marginBottom: "0" }}>
             <p>
-              MyDish is a social networking platform aimed at making the
-              creation, editing, and sharing of personal recipes easier through
-              a digital medium. I was responsible for refactoring the
-              application's global state handlers as well as writing many new
-              front-end components such as the one you see here. This component
-              contains the information from a user's recipe.
+              Weightlifting Journal is digital workout platform aimed at making
+              advanced workout routines and techniques more accessible to the
+              average user. After signing up for free, users can browse preset
+              routines or custom workouts written by other users. I was
+              responsible for writing the components that handle user
+              signup/login as well as the workout plan editor.
               <br />
               <br />
               Tech Stack:
               <ul>
-                <li>React-Native</li>
+                <li>React</li>
                 <li>Redux</li>
                 <li>NodeJS</li>
                 <li>Express</li>
-                <li>Expo</li>
-                <li>AWS-S3</li>
-                <li>SQL</li>
               </ul>
             </p>
           </div>
         </div>
       </div>
 
-      <h3>MyDish</h3>
+      <a
+        href="https://github.com/Build-Week-Med-Cabinet-4/back-end"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <h3>Med Cabinet</h3>
+      </a>
       <div className="project-container">
-        <div className="project-img">
-          <img
-            src="/mydishcover.png"
-            style={{ width: "100%", height: "auto" }}
-          />
-        </div>
         <div className="project-details">
           <div className="container" style={{ marginBottom: "0" }}>
             <p>
-              MyDish is a social networking platform aimed at making the
-              creation, editing, and sharing of personal recipes easier through
-              a digital medium. I was responsible for refactoring the
-              application's global state handlers as well as writing many new
-              front-end components such as the one you see here. This component
-              contains the information from a user's recipe.
+              Med Cabinet is a platform aimed at helping new patients find the
+              right strains, dosing, intake method and intake schedule for
+              medicinal cannabis. I personally contributed most of the back-end
+              documentation as well as the user authentication endpoints,
+              database resource endpoints, and the relational SQL database
+              structure.
               <br />
               <br />
               Tech Stack:
               <ul>
-                <li>React-Native</li>
-                <li>Redux</li>
                 <li>NodeJS</li>
                 <li>Express</li>
-                <li>Expo</li>
-                <li>AWS-S3</li>
                 <li>SQL</li>
+                <li>React</li>
+                <li>Redux</li>
               </ul>
             </p>
           </div>

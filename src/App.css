@@ -118,6 +118,7 @@
   align-items: flex-start;
   width: 48%;
   background-color: rgba(127.5, 127.5, 127.5, 0.125);
+  max-height: 100%;
 }
 
 .project-details {

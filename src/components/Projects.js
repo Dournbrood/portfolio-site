@@ -68,7 +68,7 @@ const Projects = (props) => {
         >
           <img
             alt="Weightlifting Journal cover. Two individuals are shown performing anaerobic exercise routines."
-            href="https://www.google.com"
+            href="https://weightlifting.now.sh"
             src="/weightliftingjournalcover.png"
             style={{ width: "100%", height: "auto" }}
           />
@@ -104,6 +104,19 @@ const Projects = (props) => {
         <h3>Med Cabinet</h3>
       </a>
       <div className="project-container">
+        <a
+          href="https://github.com/Build-Week-Med-Cabinet-4/back-end"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="project-img"
+        >
+          <img
+            alt="Med Cabinet code snippet."
+            href="https://github.com/Build-Week-Med-Cabinet-4/back-end"
+            src="/medcabinetcode.PNG"
+            style={{ width: "100%", height: "auto" }}
+          />
+        </a>
         <div className="project-details">
           <div className="container" style={{ marginBottom: "0" }}>
             <p>

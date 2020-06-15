@@ -10,6 +10,8 @@ const Hero = () => {
         <div className="Banner-Contact-Container">
           <a
             href="https://github.com/Dournbrood"
+            target="_blank"
+            rel="noopener noreferrer"
             style={{ color: "inherit" }}
             className="Contact-Button"
           >
@@ -31,6 +33,8 @@ const Hero = () => {
           <a
             href="https://www.linkedin.com/in/tanner-hawkins-webdev/"
             style={{ color: "inherit" }}
+            target="_blank"
+            rel="noopener noreferrer"
             className="Contact-Button"
           >
             <svg
@@ -50,6 +54,8 @@ const Hero = () => {
           <div className="Separator-Vertical" />
           <a
             href="https://resume.creddle.io/resume/fge2whjejfx"
+            target="_blank"
+            rel="noopener noreferrer"
             style={{ color: "inherit" }}
             className="Contact-Button"
           >
